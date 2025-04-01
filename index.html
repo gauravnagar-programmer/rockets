@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body class="bg-amber-50">
+  <div class="px-5 py-4 min-h-screen flex flex-col gap-15 md:py-8 md:px-10 lg:py-12 lg:px-14">
+    <header class="flex justify-between items-center">
+      <div class="flex justify-center items-center gap-2">
+        <img src="./public/images/rocket.png" class="w-10 h-10 md:w-18 md:h-18 object-cover" alt="">
+        <h3 class="font-semibold text-sm md:text-2xl ">Rooc-ket</h3>
+        <button
+          class="bg-linear-to-r from-orange-300 to-red-400 md:text-xl px-2 py-1  md:py-2.5 md:px-3 rounded-full text-xs text-white">Hiring</button>
+    
+      </div>
+      <ul class=" hidden lg:flex gap-15 text-2xl">
+        <li class="hover:text-blue-500 text-gray-600 font-semibold">
+          <a href="#">Plans</a>
+        </li>
+        <li class="hover:text-blue-500 text-gray-600 font-semibold">
+          <a href="#">Projects</a>
+        </li>
+        <li class="hover:text-blue-500 text-gray-600 font-semibold">
+          <a href="#">About</a>
+        </li>
+      </ul>
+      <div class=" hidden lg:flex gap-5  ">
+        <a class="bg-amber-200 flex justify-center items-center rounded-full text-gray-700 font-semibold px-3 py-2" href="#">Sign-Up</a>
+        <button class="bg-blue-400 rounded-sm px-3 py-3 text-white font-semibold">JOIN Us</button>
+      </div>
+      <div class="lg:hidden">
+        <i class="fa-solid fa-bars md:text-xl"></i>
+      </div>
+   
+    </header>
+    <main class="flex justify-center items-center flex-col lg:flex lg:flex-row lg:justify-end-end">
+      <div class="lg:flex-1 lg:order-2">
+        <img class="w-120 h-75 md:w-150 md:h-105" src="public/images/highresolutionrocket.png" alt="">
+      </div> 
+      <div class="lg:flex-1 lg:order-1">
+
+        <h1 class="text-5xl font-semibold leading-tight">Touch the sky to
+          <span class="text-blue-400">Dreams!
+          </span>
+        </h1>
+        <p class="mt-2 mb-4 md:text-xl text-gray-700">With us you can fly the space . With $10000 per person for a long route of
+          whole earth. <br> <span class="mt-2  inline-block text-orange-600 font-semibold "><a href="#">Join with
+            us!</a></span></p>
+        <form class="flex  flex-col md:text-xl  md:flex-row gap-3 md:w-full mb-5 " action="">
+          <input type="email" class="border border-gray-400 md:flex-1/2  px-3 outline-none py-3.5 md:py-4 md:px-3.5 rounded"
+            placeholder="Enter Your Email">
+
+          <div class="flex justify-center items-center md:flex-1 w-1/4">
+
+            <input type="submit" class="bg-blue-400 md:w-full   w-full px-3 py-3.5 md:px-3.5 md:py-4 rounded-sm outline-none text-white font-semibold"
+              value="JOIN Us!">
+          </div>
+        </form>
+        <p class="flex  font-semibold text-gray-600 items-center md:text-xl gap-x-2">
+          <img class="w-8 h-8" src="public/images/allcheck.png" alt=""> All certifications Are from
+          <span class="text-blue-400 ">ISRO</span>
+        </p>
+      </div>
+    </main>
+    <footer class="md:text-xl flex flex-col  md:flex-row md:items-center  md:justify-between">
+      <ul class="flex gap-6 text-gray-500 ">
+        <li class="hover:text-blue-500">
+          Facebook
+        </li>
+        <li>
+          Instagram
+        </li>
+        <li>
+          Twitter
+        </li>
+
+      </ul>
+      <div class="flex items-center  space-x-3 mt-7 ">
+        <img class="w-17 h-17 bg-red-300 rounded-full px-1 py-1 " src="/public/images/botimage.png" alt="">
+        <div>
+          <p>Have Any Questions?</p>
+          <a href="#" class="text-yellow-600">Want an Consultent!</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
